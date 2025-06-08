@@ -3,7 +3,12 @@
 <h1> Hello Second LWC Comp </h1>
 <br/>
 {nameProp}
-{cityProp}
+{cityProp} <br/><br/>
+
+<template for:each= {namelist} for:item ="n" >
+    <p key={n}>{n}</p>
+
+</template>
 
     </lightning-card>
     
