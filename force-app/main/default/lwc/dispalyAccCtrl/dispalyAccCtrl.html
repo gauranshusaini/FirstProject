@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Account Records with Apex Class">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={conlistProp} for:item="con">
+                    <tr key={con.Id}>
+                        <td>{con.FirstName}</td>
+                        <td>{con.LastName}</td>
+                        <td>{con.Phone}</td>
+                        <td>{con.Email}</td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>
