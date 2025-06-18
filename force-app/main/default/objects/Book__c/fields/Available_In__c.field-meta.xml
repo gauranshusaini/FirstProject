@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_In__c</fullName>
+    <label>Available In</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Online store</fullName>
+                <default>false</default>
+                <label>Online store</label>
+            </value>
+            <value>
+                <fullName>Retail store</fullName>
+                <default>false</default>
+                <label>Retail store</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Bio</controllingFieldValue>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <valueName>Library</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bio</controllingFieldValue>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <controllingFieldValue>Geography</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <valueName>Online store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Computer</controllingFieldValue>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>Geography</controllingFieldValue>
+            <controllingFieldValue>History</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <valueName>Retail store</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

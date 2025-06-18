@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch__c</fullName>
+    <label>Branch</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>select_courses__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MECHANICAL ENGG</fullName>
+                <default>false</default>
+                <label>MECHANICAL ENGG</label>
+            </value>
+            <value>
+                <fullName>COMPUTER SCIENCE ENGG</fullName>
+                <default>false</default>
+                <label>COMPUTER SCIENCE ENGG</label>
+            </value>
+            <value>
+                <fullName>INFORMATION TECHNOLOGY ENGG</fullName>
+                <default>false</default>
+                <label>INFORMATION TECHNOLOGY ENGG</label>
+            </value>
+            <value>
+                <fullName>CIVIL ENGG</fullName>
+                <default>false</default>
+                <label>CIVIL ENGG</label>
+            </value>
+            <value>
+                <fullName>ELECTRICAL ENGG</fullName>
+                <default>false</default>
+                <label>ELECTRICAL ENGG</label>
+            </value>
+            <value>
+                <fullName>ELECTRONICS ENGG</fullName>
+                <default>false</default>
+                <label>ELECTRONICS ENGG</label>
+            </value>
+            <value>
+                <fullName>B.SC(CS)</fullName>
+                <default>false</default>
+                <label>B.SC(CS)</label>
+            </value>
+            <value>
+                <fullName>B.SC(ME)</fullName>
+                <default>false</default>
+                <label>B.SC(ME)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>MECHANICAL ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>COMPUTER SCIENCE ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>INFORMATION TECHNOLOGY ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>CIVIL ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>ELECTRICAL ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.TECH</controllingFieldValue>
+            <controllingFieldValue>B.E</controllingFieldValue>
+            <valueName>ELECTRONICS ENGG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.SC</controllingFieldValue>
+            <valueName>B.SC(CS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B.SC</controllingFieldValue>
+            <valueName>B.SC(ME)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

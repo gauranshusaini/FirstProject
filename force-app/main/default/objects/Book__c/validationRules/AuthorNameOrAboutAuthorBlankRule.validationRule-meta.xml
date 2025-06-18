@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AuthorNameOrAboutAuthorBlankRule</fullName>
+    <active>true</active>
+    <description>Author Name Or About  Author should not be Blank</description>
+    <errorConditionFormula>OR(ISBLANK( Author_Name__c ) , ISBLANK( About_Author__c ))</errorConditionFormula>
+    <errorMessage>please fill author detail</errorMessage>
+</ValidationRule>

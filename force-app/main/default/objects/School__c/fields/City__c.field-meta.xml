@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City__c</fullName>
+    <label>City</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>G.B.NAGAR</fullName>
+                <default>false</default>
+                <label>G.B.NAGAR</label>
+            </value>
+            <value>
+                <fullName>GHAZIABAD</fullName>
+                <default>false</default>
+                <label>GHAZIABAD</label>
+            </value>
+            <value>
+                <fullName>BADARPUR BORDER</fullName>
+                <default>false</default>
+                <label>BADARPUR BORDER</label>
+            </value>
+            <value>
+                <fullName>CHADNI CHOWK</fullName>
+                <default>false</default>
+                <label>CHADNI CHOWK</label>
+            </value>
+            <value>
+                <fullName>MUMBAI</fullName>
+                <default>false</default>
+                <label>MUMBAI</label>
+            </value>
+            <value>
+                <fullName>PUNE</fullName>
+                <default>false</default>
+                <label>PUNE</label>
+            </value>
+            <value>
+                <fullName>BANGALORE</fullName>
+                <default>false</default>
+                <label>BANGALORE</label>
+            </value>
+            <value>
+                <fullName>MYSORE</fullName>
+                <default>false</default>
+                <label>MYSORE</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>UP</controllingFieldValue>
+            <valueName>G.B.NAGAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UP</controllingFieldValue>
+            <valueName>GHAZIABAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAHARASTRA</controllingFieldValue>
+            <valueName>MUMBAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAHARASTRA</controllingFieldValue>
+            <valueName>PUNE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELHI</controllingFieldValue>
+            <valueName>BADARPUR BORDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DELHI</controllingFieldValue>
+            <valueName>CHADNI CHOWK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KARNATKA</controllingFieldValue>
+            <valueName>BANGALORE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KARNATKA</controllingFieldValue>
+            <valueName>MYSORE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

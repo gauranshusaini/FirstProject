@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>submitted_fees_check</fullName>
+    <active>false</active>
+    <errorConditionFormula>fees_submitted__c  &lt; 5000</errorConditionFormula>
+    <errorDisplayField>fees_submitted__c</errorDisplayField>
+    <errorMessage>submitted fees cannot be less than 5000</errorMessage>
+</ValidationRule>

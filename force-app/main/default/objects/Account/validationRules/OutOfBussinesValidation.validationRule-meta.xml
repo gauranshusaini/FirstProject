@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OutOfBussinesValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( Out_Of_Business__c  == false , false, true)</errorConditionFormula>
+    <errorMessage>You can’t deactivate an Account that has an open Opportunity. First, update the Opportunity status, to ‘Closed Won’ or to ‘Closed Lost’, and then deactivate the Account.</errorMessage>
+</ValidationRule>
